@@ -25,6 +25,11 @@ Folder Structure
     │   └── index.html
     |── package.json             
 
+Steps to run:
+
+1. clone the repository to your local.
+2. Open the terminal and give the command npm start.
+3. The Application can be viewed at http://localhost:3000/
 
 # 2.Backend
 
@@ -48,5 +53,11 @@ Folder Structure
     │     └── resources/
     │         └── application.properties         
     │                                   
-    ├── pom.xml                                                                      
+    ├── pom.xml    
+    
+Steps to run:
 
+1. clone the repository to your local.
+2. Open the project in any IDE and run the CustomerServiceApplication.java class
+3. The Application will be live at http://localhost:8080
+4. You can access the end points using postman or any other API Tool.
