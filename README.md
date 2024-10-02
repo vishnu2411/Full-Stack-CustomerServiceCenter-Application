@@ -39,21 +39,26 @@ The backend of the application is built using Spring Boot. It exposes RESTful AP
 
 Folder Structure
 
-   
     ├── src/
     │   ├── main/
     │     ├── java/
     │     │   └── com/
     │     │       └── example/
     │     │           └── customerService/
-    │     │               ├── controller/        
-    │     │               ├── model/            
-    │     │               ├── repository/       
-    │     │               └── service/           
+    │     │               ├── controller/  
+    │     │               |      ├── CustomerServiceController.java
+    │     │               ├── model/    
+    │     │               |      ├── RegularHours.java
+    │     │               |      ├── SpecialHours.java
+    │     │               |      ├── SpecialHoursResponse.java     
+    │     │               |── service/    
+    │     │               |      ├── CustomerService.java
+    │     │               |── CustomerServiceApplication.java
     │     └── resources/
     │         └── application.properties         
     │                                   
-    ├── pom.xml    
+    ├── build.gradle
+    ├── README.md  
     
 Steps to run:
 
